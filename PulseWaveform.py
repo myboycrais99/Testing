@@ -1,5 +1,7 @@
 """
-
+This code creates a set of repeated waveforms at specific time intervals and
+then performs an FFT on the resulting waveform. CAUTION: A high sample rate
+will significanly increase the runtime of this script.
 """
 
 from __future__ import division, print_function
@@ -36,10 +38,6 @@ y = np.zeros(len(t), dtype=float)
 
 for i in idx:
     y[i:i+t_len] = y_wave
-
-# fig, ax = plt.subplots()
-# ax.plot(t, y)
-# plt.show()
 
 n = y.size
 yf = np.fft.fft(y)
