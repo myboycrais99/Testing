@@ -49,3 +49,4 @@ fig, ax = plt.subplots()
 ax.plot(xf[xf > 0], np.abs(yf[xf > 0]))
 ax.set_xlim(0, 2*pw_stop)
 plt.show()
+
