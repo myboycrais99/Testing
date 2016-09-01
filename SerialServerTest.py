@@ -2,7 +2,11 @@
 This code is a simple example of a server running on a serial port. This code
 listens on the designated port, determines if a valid entry is provided, and
 then provides the proper response. Otherwise, an error is returned.
+
+Requires the use of a COM port emulator. Currently using com2com available at
+"https://sourceforge.net/projects/com0com/".
 """
+
 from __future__ import division, print_function
 import time
 import serial

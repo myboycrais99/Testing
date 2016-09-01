@@ -1,7 +1,7 @@
 """
 This code creates a set of repeated waveforms at specific time intervals and
 then performs an FFT on the resulting waveform. CAUTION: A high sample rate
-will significanly increase the runtime of this script.
+will significantly increase the runtime of this script.
 """
 
 from __future__ import division, print_function
