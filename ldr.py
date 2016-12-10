@@ -19,7 +19,7 @@ import matplotlib.animation as animation
 
 # plot class
 class AnalogPlot:
-    # constr
+    # constructor
     def __init__(self, str_port, max_len):
         # open serial port
         self.ser = serial.Serial(str_port, 9600)
